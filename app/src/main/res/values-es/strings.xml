@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2017 Luis F. Cardona S.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <string-array name="Fluidos">
+        <item>Agua</item>
+        <item>Aire</item>
+    </string-array>
+
+    <string-array name="DatoConocido">
+        <item>T salida fluido caliente</item>
+        <item>T salida fluido frio</item>
+        <item>Área superficial</item>
+    </string-array>
+
+    <string-array name="Tipo">
+        <item>Concéntrico flujo paralelo</item>
+        <item>Concéntrico contraflujo</item>
+    </string-array>
+
+    <string name="app_name">Heat exchanger calculator</string>
+    <string name="TipoIntercambiador">Tipo de intercambiador</string>
+    <string name="FluidoFrio">Fluido frío</string>
+    <string name="FluidoCaliente">Fluido caliente</string>
+    <string name="Uintercambiador">U intercambiador</string>
+    <string name="FlujoMasicoFluidoFrio">Flujo másico fluido frío</string>
+    <string name="FlujoMasicoFluidoCaliente">Flujo másico fluido caliente</string>
+    <string name="TentradaFluidoCaliente">T entrada fluido caliente</string>
+    <string name="TentradaFluidoFrio">T entrada fluido frío</string>
+    <string name="TsalidaFluidoFrio">T salida fluido frio</string>
+    <string name="TsalidaFluidoCaliente">T salida fluido caliente</string>
+    <string name="AreaSuperficial">Área superficial</string>
+    <string name="NTUIntercambiador">NTU Intercambiador</string>
+    <string name="Efectividad">Efectividad</string>
+    <string name="TransferenciaCalor">Transferencia de calor</string>
+    <string name="CFlujoFrio">C flujo frio</string>
+    <string name="CFlujoCaliente">C flujo caliente</string>
+    <string name="imgContentDescription">Tipo de intercambiador</string>
+    <string name="UcoefInitialValue">640 W/m²°C</string>
+    <string name="EfectivididadInitialValue">0.8</string>
+    <string name="AInitialValue">1 m²</string>
+    <string name="mf_coldFlowInitialValue">1.2 kg/s</string>
+    <string name="datoConocidoInitialValue">114 °C</string>
+    <string name="tempCOutletInitialValue">15°C</string>
+    <string name="tempHOutletInitialValue">16 °C</string>
+    <string name="temp_h_inletInitialValue">160 °C</string>
+    <string name="mf_hotflowInitialValue">2 kg/s</string>
+    <string name="temp_c_inletInitialValue">20 °C</string>
+    <string name="NTUinitialValue">3</string>
+    <string name="QpuntoRealInitialValue">50 kW</string>
+    <string name="textoPrueba">TextView</string>
+</resources>

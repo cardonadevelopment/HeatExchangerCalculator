@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2017 Luis F. Cardona S.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <string-array name="Fluidos">
+        <item>Water</item>
+        <item>Air</item>
+    </string-array>
+
+    <string-array name="DatoConocido">
+        <item>T outlet hot fluid</item>
+        <item>T outlet cold fluid</item>
+        <item>Surface area</item>
+    </string-array>
+
+
+    <string-array name="Tipo">
+        <item>Concentric parallel flow</item>
+        <item>Concentric counterflow</item>
+    </string-array>
+
+    <string name="app_name">Heat exchanger calculator</string>
+    <string name="TipoIntercambiador">Type of exchanger</string>
+    <string name="FluidoFrio">Cold fluid</string>
+    <string name="FluidoCaliente">Hot fluid</string>
+    <string name="Uintercambiador">U exchanger</string>
+    <string name="FlujoMasicoFluidoFrio">Cold fluid mass flow</string>
+    <string name="FlujoMasicoFluidoCaliente">Hot fluid mass flow</string>
+    <string name="TentradaFluidoCaliente">T inlet hot fluid</string>
+    <string name="TentradaFluidoFrio">T inlet cold fluid</string>
+    <string name="TsalidaFluidoFrio">T outlet cold fluid</string>
+    <string name="AreaSuperficial">Surface area</string>
+    <string name="CFlujoCaliente">C hot flow</string>
+    <string name="CFlujoFrio">C cold flow</string>
+    <string name="Efectividad">Effectiveness</string>
+    <string name="NTUIntercambiador">NTU exchanger</string>
+    <string name="TransferenciaCalor">Heat transfer</string>
+    <string name="TsalidaFluidoCaliente">T outlet hot fluid</string>
+    <string name="imgContentDescription">Type of heat exchanger</string>
+    <string name="UcoefInitialValue">640 W/m²°C</string>
+    <string name="EfectivididadInitialValue">0.8</string>
+    <string name="AInitialValue">1 m²</string>
+    <string name="mf_coldFlowInitialValue">1.2 kg/s</string>
+    <string name="datoConocidoInitialValue">114 °C</string>
+    <string name="tempCOutletInitialValue">15°C</string>
+    <string name="tempHOutletInitialValue">16 °C</string>
+    <string name="temp_h_inletInitialValue">160 °C</string>
+    <string name="mf_hotflowInitialValue">2 kg/s</string>
+    <string name="temp_c_inletInitialValue">20 °C</string>
+    <string name="NTUinitialValue">3</string>
+    <string name="QpuntoRealInitialValue">50 kW</string>
+    <string name="textoPrueba">TextView</string>
+</resources>
